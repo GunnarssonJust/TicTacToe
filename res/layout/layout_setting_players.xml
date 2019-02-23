@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+
+
+    <EditText
+        android:id="@+id/editspieler1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/spielername1"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/editspieler2"
+        android:layout_below="@id/editspieler1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/spielername2"
+        android:layout_marginTop="15dp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editspieler2"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        >
+
+
+        <Button
+            android:id="@+id/button_abbrechen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/abbrechen" />
+
+        <Button
+            android:id="@+id/button_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:text="@string/o_k" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

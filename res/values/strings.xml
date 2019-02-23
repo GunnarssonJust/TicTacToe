@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Gabriels Tic Tac Toe</string>
+
+    <string name="spielername1">Name Spieler 1</string>
+    <string name="spielername2">Name Spieler 2</string>
+    <string name="abbrechen">Abbrechen</string>
+    <string name="o_k">OK</string>
+    <string name="text_player2">Spieler 2:</string>
+    <string name="text_player1">Spieler 1:</string>
+    <string name="player_1_0">Spieler 1</string>
+    <string name="player_2_0">Spieler 2</string>
+    <string name="neu_starten">Neu starten</string>
+    <string name="spieler_ndern">Spielername ändern</string>
+    <string name="spieler1_gewonnen">%1s hat gewonnen</string>
+    <string name="spieler2_gewonnen">%1s hat gewonnen</string>
+    <string name="_0">0</string>
+    <string name="doppelpunkt">:</string>
+    <string name="_3x3_kindergarten">3x3 Kindergarten</string>
+    <string name="_5x5_challenge">5x5 Challenge</string>
+    <string name="_4x4_challenge">4x4 Challenge</string>
+</resources>
